@@ -11,6 +11,12 @@ npm create @alexzhang1030/gi
 pnpm create @alexzhang1030/gi
 ```
 
+## Tasking
+
+- [ ] merge existing `.gitignore`
+- [ ] more `.gitignore` rules
+- [ ] improve CI process
+
 ## Contributing
 
 ### Contribute to the Rules
