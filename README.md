@@ -15,7 +15,7 @@ pnpm create @alexzhang1030/gi
 
 - [ ] merge existing `.gitignore`
 - [ ] more `.gitignore` rules
-- [ ] improve CI process
+- [x] improve CI process
 
 ## Contributing
 
