@@ -2,6 +2,7 @@
 
 // index.ts
 import { writeFileSync } from "fs";
+import path from "path";
 
 // src/options.ts
 import prompts from "prompts";
@@ -50,7 +51,7 @@ var node = [
   "*.log"
 ];
 
-// src/data.ts
+// data/index.ts
 function getAllData() {
   return {
     basic,
@@ -95,22 +96,19 @@ async function options() {
   return response;
 }
 
-// index.ts
-import path from "path";
-
 // src/content.ts
 var data = getAllData();
-async function getContent(type2) {
+function getContent(type2) {
   let content = data[type2];
   if (!isBasic(type2)) {
-    const basic2 = await getBasic();
+    const basic2 = getBasic();
     content = basic2.concat(content);
   }
   content.unshift(Sign());
   return content.join("\n");
 }
-async function getBasic() {
-  return data["basic"];
+function getBasic() {
+  return data.basic;
 }
 
 // index.ts
@@ -124,7 +122,7 @@ async function create(path2) {
     writeFileSync(path2, await getContent(type));
     console.log("\n .gitignore is generated successfully! \u{1F389}");
   } catch (error) {
-    console.log("looks like something wrong: " + error);
+    console.log(`looks like something wrong: ${error}`);
   }
 }
 //# sourceMappingURL=index.js.map
