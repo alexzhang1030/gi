@@ -1,6 +1,6 @@
 {
   "name": "@alexzhang1030/create-gi",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "",
   "main": "./dist/index.js",
   "type": "module",
