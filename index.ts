@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-import { writeFileSync } from 'fs';
-import { options } from './src/options.js'
+import { writeFileSync } from 'fs'
 import path from 'path'
-import { getContent } from './src/content.js';
+import { options } from './src/options.js'
+import { getContent } from './src/content.js'
 const __dirname = path.resolve()
 
 const fileName = '.gitignore'
@@ -14,10 +14,13 @@ const { type } = await options()
 await create(fullPath)
 
 async function create(path: string) {
-    try {
-        writeFileSync(path, await getContent(type))
-        console.log('\n .gitignore is generated successfully! 🎉')
-    } catch (error) {
-        console.log('looks like something wrong: ' + error);
-    }
+  try {
+    writeFileSync(path, await getContent(type))
+    // eslint-disable-next-line no-console
+    console.log('\n .gitignore is generated successfully! 🎉')
+  }
+  catch (error) {
+    // eslint-disable-next-line no-console
+    console.log(`looks like something wrong: ${error}`)
+  }
 }

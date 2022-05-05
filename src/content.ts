@@ -1,4 +1,4 @@
-import { getAllData } from './data.js'
+import { getAllData } from '../data'
 import { Sign, isBasic } from './utils.js'
 
 const data = getAllData()
@@ -13,5 +13,5 @@ export function getContent(type: string) {
 }
 
 export function getBasic() {
-  return data["basic"]
+  return data.basic
 }

@@ -1,28 +1,33 @@
 {
   "name": "@alexzhang1030/create-gi",
+  "type": "module",
   "version": "1.1.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexzhang1030/gi.git"
+  },
   "main": "./dist/index.js",
-  "type": "module",
   "bin": {
     "create-gi": "./dist/index.js"
   },
   "scripts": {
     "test": "pnpm build && node ./dist/index.js",
     "build": "tsup",
-    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
+    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
+    "lint": "eslint . --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexzhang1030/gi.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/alexzhang1030/gi/issues"
   },
   "homepage": "https://github.com/alexzhang1030/gi#readme",
+  "dependencies": {
+    "kolorist": "^1.5.1",
+    "prompts": "^2.4.2"
+  },
   "devDependencies": {
     "@alexzhang1030/eslint-config": "^1.1.1",
     "@types/node": "^17.0.31",
@@ -31,9 +36,5 @@
     "eslint": "^8.14.0",
     "tsup": "^5.12.6",
     "typescript": "^4.6.4"
-  },
-  "dependencies": {
-    "kolorist": "^1.5.1",
-    "prompts": "^2.4.2"
   }
 }

@@ -1,4 +1,3 @@
-import { readdirSync } from 'fs'
 import prompts from 'prompts'
 import {
   blue,
@@ -9,11 +8,11 @@ import {
   reset,
   yellow,
 } from 'kolorist'
-import { getAllData } from './data'
+import { getAllData } from '../data'
 
-type ChoiceType = {
-  title: string,
-  value: string,
+interface ChoiceType {
+  title: string
+  value: string
 }
 
 const AllData = getAllData()
