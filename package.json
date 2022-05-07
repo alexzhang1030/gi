@@ -1,10 +1,10 @@
 {
-  "name": "@alexzhang1030/create-gi",
+  "name": "@alexzzz/create-gi",
   "type": "module",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "",
   "keywords": [],
-  "license": "ISC",
+  "license": "MIT",
   "author": "",
   "repository": {
     "type": "git",
