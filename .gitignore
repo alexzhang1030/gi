@@ -5,7 +5,6 @@ npm-debug.log*
 .pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-# Output of 'npm pack'
+
+# Output of 'npm pack'
 *.tgz
-logs
-*.log
