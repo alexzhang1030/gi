@@ -7,6 +7,7 @@ const forNpmPack = [
 
 export const basic = [
   'node_modules',
+  'dist',
   '.DS_Store',
   'npm-debug.log*',
   '.pnpm-debug.log*',
