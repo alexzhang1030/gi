@@ -6,9 +6,9 @@ a simple way to create your custom `.gitignore`
 
 ```bash
 # use npm
-npm create @alexzhang1030/gi
+npm create @alexzzz/gi
 # use pnpm
-pnpm create @alexzhang1030/gi
+pnpm create @alexzzz/gi
 ```
 
 ## Tasking
