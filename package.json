@@ -35,7 +35,7 @@
     "@types/prompts": "^2.0.14",
     "bumpp": "^7.1.1",
     "eslint": "^8.14.0",
-    "husky": "8.0.0",
+    "husky": "8.0.1",
     "lint-staged": "^12.4.1",
     "tsup": "^5.12.6",
     "typescript": "^4.6.4"
