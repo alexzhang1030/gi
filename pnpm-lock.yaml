@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@alexzzz/eslint-config': 1.3.0
+  '@alexzzz/eslint-config': 1.4.0
   '@types/node': 17.0.45
   '@types/prompts': 2.0.14
   bumpp: 8.2.1
@@ -18,7 +18,7 @@ dependencies:
   prompts: 2.4.2
 
 devDependencies:
-  '@alexzzz/eslint-config': 1.3.0_shit3uhl6a7megkzgoz6xssnfa
+  '@alexzzz/eslint-config': 1.4.0_shit3uhl6a7megkzgoz6xssnfa
   '@types/node': 17.0.45
   '@types/prompts': 2.0.14
   bumpp: 8.2.1
@@ -30,8 +30,8 @@ devDependencies:
 
 packages:
 
-  /@alexzzz/eslint-config-basic/1.3.0_2lpktitj4roqsljznmlu445jty:
-    resolution: {integrity: sha512-a/Zn0aggFhXaheaouAZwOaIuJlBzJpavev5swiqkPf2itftvBSE1ADRcoWSZ31RI8nyspZ+kdwBurLlPdmpdZA==}
+  /@alexzzz/eslint-config-basic/1.4.0_2lpktitj4roqsljznmlu445jty:
+    resolution: {integrity: sha512-eR/7knj3HCAMUFmHAndEIKMmSQfDSZ961yRp7vh2bRL+yCs0hYcMZBfzQO4sCK1HqhwAdQDos9lfQr0dq3oNDg==}
     dependencies:
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.22.0
       eslint-plugin-html: 6.2.0
@@ -52,10 +52,10 @@ packages:
       - supports-color
     dev: true
 
-  /@alexzzz/eslint-config-react/1.3.0_shit3uhl6a7megkzgoz6xssnfa:
-    resolution: {integrity: sha512-MRbZNkoiIcFm4gx4ww2ZBGFASFbCD5vZ9OZ5xaiE72vTp4sGZLeYDZ/2l/G++ZjmhQkQBiZVEFUljP4dVe4N6w==}
+  /@alexzzz/eslint-config-react/1.4.0_shit3uhl6a7megkzgoz6xssnfa:
+    resolution: {integrity: sha512-bi9IaAzhiNZXCYuMGEdcNCdKrJMVZRM+RkglizFwESxRl4gGyJoaUPpNewQvws9QnM+LFZE1CRBICz6BHjYIOw==}
     dependencies:
-      '@alexzzz/eslint-config-typescript': 1.3.0_shit3uhl6a7megkzgoz6xssnfa
+      '@alexzzz/eslint-config-typescript': 1.4.0_shit3uhl6a7megkzgoz6xssnfa
       eslint-plugin-react: 7.29.4_eslint@8.22.0
     transitivePeerDependencies:
       - eslint
@@ -65,10 +65,10 @@ packages:
       - typescript
     dev: true
 
-  /@alexzzz/eslint-config-typescript/1.3.0_shit3uhl6a7megkzgoz6xssnfa:
-    resolution: {integrity: sha512-Ga4DaqUM6cqj051JgxcyV9GYKz0haF5309OLs4E4IgnU8i+LOYADdN/4Tb6uXs5xYADUkKwpG42ksNenOqkIog==}
+  /@alexzzz/eslint-config-typescript/1.4.0_shit3uhl6a7megkzgoz6xssnfa:
+    resolution: {integrity: sha512-4TnfE+rAIFBZFpG2+aKSZmdqflwrZL32dOcSypCb7SjadTrN/hR5IqtnqQMw2XIyu4Ddxy8RJzlbCccKmZtMPA==}
     dependencies:
-      '@alexzzz/eslint-config-basic': 1.3.0_2lpktitj4roqsljznmlu445jty
+      '@alexzzz/eslint-config-basic': 1.4.0_2lpktitj4roqsljznmlu445jty
       '@typescript-eslint/eslint-plugin': 5.22.0_xlxff6ll2khdrxxhmglclz4yfq
       '@typescript-eslint/parser': 5.22.0_shit3uhl6a7megkzgoz6xssnfa
     transitivePeerDependencies:
@@ -79,10 +79,10 @@ packages:
       - typescript
     dev: true
 
-  /@alexzzz/eslint-config-vue/1.3.0_shit3uhl6a7megkzgoz6xssnfa:
-    resolution: {integrity: sha512-XALOxtfguc9EZsi2WixzdGKeUizeK+d8Sem7lFjvjUsXabNXM4g/sqERhZJLqCXk3L6vDTPxI9WtKsORFJDw9A==}
+  /@alexzzz/eslint-config-vue/1.4.0_shit3uhl6a7megkzgoz6xssnfa:
+    resolution: {integrity: sha512-ou47QH9c4n4ZXzi179IlNyuUR1o8MjXXMyb7dbKCdj0nfAmDv3Dd7rc+hC05TVWPbO9W6ndo+j8bLatRCil32g==}
     dependencies:
-      '@alexzzz/eslint-config-typescript': 1.3.0_shit3uhl6a7megkzgoz6xssnfa
+      '@alexzzz/eslint-config-typescript': 1.4.0_shit3uhl6a7megkzgoz6xssnfa
       eslint-plugin-vue: 8.7.1_eslint@8.22.0
     transitivePeerDependencies:
       - eslint
@@ -92,11 +92,11 @@ packages:
       - typescript
     dev: true
 
-  /@alexzzz/eslint-config/1.3.0_shit3uhl6a7megkzgoz6xssnfa:
-    resolution: {integrity: sha512-640QO7EWHkXikXp9X6uzsY6CYdLBDHvCd48utdr7KKB83DaKb7eny99ybTQ36BkZm6X6U9rTscEJ9tB3l7pcPg==}
+  /@alexzzz/eslint-config/1.4.0_shit3uhl6a7megkzgoz6xssnfa:
+    resolution: {integrity: sha512-FIGQkkHaBNwZm0OUIYCJA0B90nDxdctF2k7CKRYWlFn3fihNgNFBKLvhtI475iZla76JS1IaaTa9KPUJ9e+oEw==}
     dependencies:
-      '@alexzzz/eslint-config-react': 1.3.0_shit3uhl6a7megkzgoz6xssnfa
-      '@alexzzz/eslint-config-vue': 1.3.0_shit3uhl6a7megkzgoz6xssnfa
+      '@alexzzz/eslint-config-react': 1.4.0_shit3uhl6a7megkzgoz6xssnfa
+      '@alexzzz/eslint-config-vue': 1.4.0_shit3uhl6a7megkzgoz6xssnfa
     transitivePeerDependencies:
       - eslint
       - eslint-import-resolver-typescript
