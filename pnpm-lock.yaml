@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@alexzzz/eslint-config': 1.4.0
-  '@types/node': 17.0.45
+  '@types/node': 18.11.5
   '@types/prompts': 2.4.1
   bumpp: 8.2.1
   eslint: 8.25.0
@@ -19,7 +19,7 @@ dependencies:
 
 devDependencies:
   '@alexzzz/eslint-config': 1.4.0_z4bbprzjrhnsfa24uvmcbu7f5q
-  '@types/node': 17.0.45
+  '@types/node': 18.11.5
   '@types/prompts': 2.4.1
   bumpp: 8.2.1
   eslint: 8.25.0
@@ -217,8 +217,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node/17.0.45:
-    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+  /@types/node/18.11.5:
+    resolution: {integrity: sha512-3JRwhbjI+cHLAkUorhf8RnqUbFXajvzX4q6fMn5JwkgtuwfYtRQYI3u4V92vI6NJuTsbBQWWh3RZjFsuevyMGQ==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -228,7 +228,7 @@ packages:
   /@types/prompts/2.4.1:
     resolution: {integrity: sha512-1Mqzhzi9W5KlooNE4o0JwSXGUDeQXKldbGn9NO4tpxwZbHXYd+WcKpCksG2lbhH7U9I9LigfsdVsP2QAY0lNPA==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.11.5
     dev: true
 
   /@types/unist/2.0.6:
