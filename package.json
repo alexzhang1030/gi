@@ -32,7 +32,7 @@
   "devDependencies": {
     "@alexzzz/eslint-config": "1.4.0",
     "@types/node": "18.11.10",
-    "@types/prompts": "2.4.1",
+    "@types/prompts": "2.4.4",
     "bumpp": "8.2.1",
     "eslint": "8.25.0",
     "husky": "8.0.1",
