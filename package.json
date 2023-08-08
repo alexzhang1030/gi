@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@alexzzz/eslint-config": "1.4.0",
-    "@types/node": "18.11.10",
+    "@types/node": "18.17.4",
     "@types/prompts": "2.4.1",
     "bumpp": "8.2.1",
     "eslint": "8.25.0",
